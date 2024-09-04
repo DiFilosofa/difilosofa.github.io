@@ -146,7 +146,7 @@ section.rsvp {
 section.features,
 section.events,
 section.blog {
-    background: #f8f9fd
+    background: #f8f7f2
 }
 
 .group:after {
@@ -472,7 +472,7 @@ section .header {
 }
 
 .hero .hero-content img {
-    width: 55%;
+    width: 20%;
     margin-bottom: 12%
 }
 
@@ -1121,4 +1121,49 @@ body.modal-open {
 
 .modal-body {
     padding: 25px
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 4px solid #529930; /* Outer border */
+    border-radius: 20px; /* Rounded corners */
+    margin: 0 auto; /* Center horizontally */
+}
+th, td {
+    padding: 2px;
+    text-align: center;
+    width: 4.7%; /* 100%/3/7 */
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+th {
+    color: #529930;
+}
+
+.highlight {
+    position: relative;
+    background-color: #ffeb3b; /* Highlight color */
+    border-radius: 20%;
+    font-weight: bold;
+    color: #165933;
+}
+.highlight::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ffdb3d; /* Circle border */
+    border-radius: 20%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    pointer-events: none; /* Ensure it doesn’t block interactions */
+}
+
+.green-header {
+    color: #529930;
 }
