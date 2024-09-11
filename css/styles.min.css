@@ -3,9 +3,9 @@
 @import"https://fonts.googleapis.com/css?family=Nunito:400,300,700";
 
 p {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 29px;
-    color: rgba(28, 54, 83, .6);
+    color: #3d4351;
     padding-bottom: 20px
 }
 
@@ -57,21 +57,22 @@ h5 {
 }
 
 .btn-white-rsvp {
-    font-size: 13px;
-    border: solid 2px;
+    font-size: 15px;
+    border: solid 4px;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
     border-radius: 40px;
     display: inline-block;
     text-transform: uppercase;
-    color: #e8ca6f
+    color: #aec390;
+    font-weight: bold;
 }
 
 .btn-white-rsvp:hover,
 .btn-white-rsvp:focus {
     color: #fff;
-    border-color: #e8ca6f;
-    background-color: #e8ca6f
+    border-color: #aec390;
+    background-color: #aec390
 }
 
 .btn-white {
@@ -138,14 +139,15 @@ h5 {
 }
 
 section.intro,
-section.features-extra,
-section.rsvp {
+section.features-extra
+{
     background: #fff
 }
 
 section.features,
 section.events,
-section.blog {
+section.blog,
+section.rsvp {
     background: #f8f7f2
 }
 
